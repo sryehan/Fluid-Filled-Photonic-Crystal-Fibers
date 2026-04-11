@@ -14,7 +14,7 @@ set(0, 'DefaultAxesLineWidth', 1.0);
 set(0, 'DefaultLineLineWidth', 1.8);
 
 %% 1. DATA LOADING & PREPROCESSING ────────────────────────────────────────
-data       = readmatrix('D:\tarikul sir\soma_tuser_mehedi_sr_pipe\sensitivity\main_18.txt');
+data       = readmatrix('main_18.txt');
 n_core_raw = data(:, 1);
 n_eff_raw  = data(:, 2);
 
